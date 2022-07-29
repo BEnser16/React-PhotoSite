@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.morePicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    button {
+        padding: 0.25rem 0.5rem;
+        font-size: 2rem;
+        border: none;
+        background-color: rgb(73 , 0 , 73);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@import "./_nav.scss";
+@import "./_search.scss";
+@import "./_footer.scss";
+@import "./_picture.scss";
